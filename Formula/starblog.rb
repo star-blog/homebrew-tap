@@ -2,21 +2,21 @@ class Starblog < Formula
   desc "StarBlog Publisher CLI - 博客发布命令行工具和 MCP Server"
   homepage "https://github.com/star-blog/starblog-publisher"
   license "Apache-2.0"
-  version "2.3.1"
+  version "2.3.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.1/StarBlogCli-macOS-arm64-2.3.1.tar.gz"
-      sha256 "29afbc3866ccf20d3f777fbbdc49357fcd1a7193e36c5ded234e319441ee090e"
+      url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.2/StarBlogCli-macOS-arm64-2.3.2.tar.gz"
+      sha256 "0a3bd9999b2dc71e100aabed6892c909192d9c1653f16d5ef19cbfc14e3ad4e5"
     else
-      url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.1/StarBlogCli-macOS-2.3.1.tar.gz"
-      sha256 "6033844c52c45f747d9dbdd550f7784782a04609e553b71271c824a7b9c74808"
+      url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.2/StarBlogCli-macOS-2.3.2.tar.gz"
+      sha256 "2fbdfc423be217a249a43f0692610e7ee7e5c3a410eea0edbb778c39dd625a37"
     end
   end
 
   on_linux do
-    url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.1/StarBlogCli-linux-2.3.1.tar.gz"
-    sha256 "a68085efb02054e64acd7799ab372efde61089096bccc7b373448c997bcae9d1"
+    url "https://github.com/star-blog/starblog-publisher/releases/download/v2.3.2/StarBlogCli-linux-2.3.2.tar.gz"
+    sha256 "860a49eef60252c23b1128dd8836fbe41949434624ca4727344a26d46d683c82"
   end
 
   def install
